@@ -1,9 +1,13 @@
-function App() {
-  
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Holamundo from "./components/HolaMundo"
 
+function App() {
   return (
-    <main></main>
-  )
+    <div>
+      <Holamundo nombre="Mi Amigo" />
+    </div>
+  );
 }
 
-export default App
+export default App;
